@@ -1,0 +1,4 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "php.validate.executablePath": "D:/PHP/php-7.1.11-Win32-VC14-x64/php.exe"
+}

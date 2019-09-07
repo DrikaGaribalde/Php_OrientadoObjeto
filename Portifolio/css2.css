@@ -1,0 +1,645 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:#87CEEB;
+	font-family :verdana, arial, helvetica,sans-serif;
+	font-size   :12px;
+}
+
+#web1{
+	
+	height: 163px;
+	width: 960px;
+	margin:0 auto;
+	
+}
+#web2{
+	height: 30px;
+	width: 960px;
+	margin:0 auto;
+	/*background:#87CEEB;SkyBlue*/
+	/*background:#00BFFF; DeepSkyBlue*/
+	margin-top:20px;
+	background :url(./imagens/Botoes3.jpg);
+	margin-bottom:2px;
+}
+/*Criação do menu*/
+#cabecalho_inferior{
+	width         : 100%;
+	
+	/*coloquei borda no menu ficou legal*/
+	line-height   :22px;
+}
+#menu-principal{
+	width       :960px;
+	height      :30px;
+	margin      :0 auto;
+	text-align  :right;
+	padding-top :5px;/**/
+}
+#menu-principal ul{
+	list-style  :none; /*sem bolinha*/
+	font-family :"Trebuchet MS";
+}
+#menu-principal ul li{
+	display     :inline;/*mostrar em um linha*/
+	margin-left :5px;
+	padding     :5px 27px; /*espaçamento*/
+	font-weight :bold;
+	font-size   :13 px;
+}
+.line_vertical{
+
+
+}
+#menu-principal ul li a{
+	color           :#fff;
+	text-decoration :none;
+	
+	
+}
+#menu-principal ul li a:hover{
+color: #191970;
+}
+/*fim do menu principal*/
+
+#web3{
+	height: 504px;
+	width: 960px;
+	background:  url(./imagens/Site-TCC2a.jpg);
+	margin:0 auto;
+}
+#web4{
+	height: 260px;
+	width: 290px;
+	
+	float:left;
+	margin-top:120px;
+	margin-left:550px;
+	text-align  :left;
+	padding:10px;
+}
+#web4 span{
+	font-size   :13px;
+	color:#fff;
+	text-align  :center;
+}
+#web5{
+	height: 504px;
+	width: 960px;
+	margin:0 auto;
+	border: 1px solid #red;
+}
+#web_cliente{
+	height: 504px;
+	width: 960px;
+	/*background:  url(./imagens/Fundo.jpg);*/
+	margin:0 auto;
+	
+}
+/*Veja_mais_ok*/
+#web_vejaMais{
+	height: 504px;
+	width: 100px;
+	float:left;
+	margin-left:195px;
+}
+#web_descricaoVejamais{
+	height: 20px;
+	width: 500px;
+	float:clear;
+	margin-left:200px;
+	
+	text-align  :justify;
+	padding:20px;
+	
+}
+
+#web_descricaoVejamais span{
+	color:#4682B4;
+	font-family :"Arial";
+	font-weight :bold;
+	font-size   :20px;
+	
+	margin-right:10px;
+   
+}
+#fundo_logomarcaVejamais{
+	height: 600px;
+	width: 960px;	
+	background:url(./imagens/Fundo-Clientes-960x900.jpg);
+	margin: 0 auto;
+}	
+#mostrar_logoVejamais{
+	height: 600px;
+	width: 750px;
+	margin-right:20px;
+	margin-left:125px;
+	margin-top:20px;
+	float:left;
+}
+/*fim Veja_mais_ok*/
+
+#fundo_logomarca{
+	height: 1560px;
+	width: 960px;
+	float:left;
+	background:url(./imagens/Fundo-Clientes-960x900.jpg)repeat top right;
+	margin:0 auto;
+}
+#web_descricao{
+	height: 110px;
+	width: 500px;
+	float:clear;
+	margin-left:200px;
+	 text-align  :justify;	
+}
+#web_descricao span{
+	color:#4682B4;
+	font-family :"Arial";
+	font-weight :bold;
+	font-size   :13px;
+	margin-left:10px;
+   
+}
+#web_descricao2{
+	height: 20px;
+	width: 90px;
+
+	float:left;
+	margin-left:3px;
+	margin-top:10px;
+	text-align  :justify;	
+}
+#web_descricao2 span{
+	color:#4682B4;
+	font-family :"Arial";
+	font-weight :bold;
+	font-size   :20px;
+	margin-left:10px;
+   
+}
+#web_descricao strong{
+	color:#4682B4;
+	font-family :"Arial";
+	font-weight :bold;
+	font-size   :20px;
+	
+}
+#mostrar_logo{
+	height: 1100px;
+	width: 750px;
+	margin-right:20px;
+	margin-left:90px;
+	margin-top:20px;
+	float:left;
+	
+}
+/*SINALIZAÇÃO;*/
+#fundo_sinaliacao{
+	height: 600px;
+	width: 960px;
+	float:left;
+	background:url(./imagens/Fundo-Clientes-960x900.jpg);
+	
+}
+#mostrar_logo_sinaliacao{
+	height: 900px;
+	width: 750px;
+	margin:0 auto;
+	margin-right:30px;	
+}	
+#web_descricaoSinalizacao{
+	height: 110px;
+	width: 500px;
+	float:clear;
+	margin-left:200px;
+	margin-top:20px;
+	text-align  :justify;	
+	
+}
+#web_descricaoSinalizacao span{
+	color:#4682B4;
+	font-family :"Arial";
+	font-weight :bold;
+	font-size   :13px;
+	margin-left:10px;
+	
+   
+}
+#sinalizacao{
+	color:#4682B4;
+	font-family :"Arial";
+	font-weight :bold;
+	font-size   :21px;
+	float:left;
+	margin-top:5px;
+	margin-left:7px;
+}
+/*fim sinalização*/
+
+
+/*Login*/
+#web_fundo{
+height: 504px;
+	width: 960px;
+	background:  url(./imagens/Fundo.jpg);
+	margin:0 auto;
+
+}
+#web_login{
+
+	height: 47px;
+	width: 290px;
+	float:left;
+	margin-top:120px;
+	margin-left:535px;
+	text-align  :center;
+	padding:1px;
+
+}
+#web_login span{
+	font-size   :13px;
+	color:#fff;
+	
+}
+#formulario{
+	width: 313px;
+	height: 200px;
+	padding: 3px;
+	background: #fff;
+	float:left;
+	margin-left: 535px;
+	margin-top:20px;
+	border: 1px solid #069;
+}
+#formulario label{
+	display: block; /*mostra um abaixo do outro*/	
+}
+#formulario label span.titulo{
+	font: 15px tahoma,arial, helvetica;
+	color: #069;
+	display: block; /*mostra um abaixo do outro*/
+	float:left;
+	width: 100%;
+	margin: 6px 4px;
+}
+#formulario label input /* [type=text], #formulario label input[type=password]*/{
+	padding: 6px 5px;
+	background: #fff;
+	border: solid 1px #069;
+	width: 300px;
+	outline:none;
+ }
+#formulario .dois-campos{
+	/*float:left;*/
+	padding: 4px 0;
+	width: 630px;
+	margin-bottom: 3px;
+	
+}
+#formulario .dois-campos label{
+	/*float:left;*/
+	display: inline-table;  /*na mesma linha*/
+	width: 305px;
+	margin-right: 5px; 
+}
+#formulario .dois-campos label input[type=text]{
+	width: 300px;
+}
+#formulario .dois-campos label select{
+	padding: 3px;
+	width: 295px;
+	font: 16px tahoma;
+	border: 1p solid #069;
+}
+#formulario .botao{
+	width: 130px;
+	height: 30px;
+	display: block;
+	margin: 10px auto;
+	cursor: pointer;
+	background: #069;
+	color:#fff;
+}
+#rodape_login{
+	height:43px;
+	width:  960px;
+	background: url(./imagens/Site-TCC2b.jpg);
+	margin-top:1px;	
+	margin-left:195px;
+}
+/*fim login*/
+#rodape{
+	height:43px;
+	width:  960px;
+	background: url(./imagens/Site-TCC2b.jpg);
+	margin:0 auto;	
+	
+}
+#rodape2{
+	height:43px;
+	width:  960px;
+	background: url(./imagens/Site-TCC2b.jpg);
+	margin-top:600px;
+	margin-left:195px;
+}
+#rodape3{
+	height:43px;
+	width:  960px;
+	background: url(./imagens/Site-TCC2b.jpg);
+	margin-top:97px;	
+	margin-left:195px;
+	
+}
+#rodape_cliente{
+	height:43px;
+	width:  960px;
+	background: red;
+	background: url(./imagens/Site-TCC2b.jpg);
+	margin-top:1055px;
+	margin-left:195px;	
+}
+#rodape_sinalizacao{
+	height:43px;
+	width:  960px;
+	background: url(./imagens/Site-TCC2b.jpg);
+	margin-top:38px;
+	margin-left:195px;
+}
+/*Começa a paginação*/
+#paginacao {  /*div que conterá a paginação*/
+
+  /* margin: 30px 0px 10px 0px;   define as margens em relação aos demais objetos da página*/
+	height: 60px;
+	width: 550px;
+	margin-top:0px;
+	margin-right: 25px;
+	margin-left: 400px;	
+	
+}
+
+#paginacao p { /*formatação CSS para a tag <p>*/
+
+    font-size: 15px; /*tamanho da fonte*/
+	font-family: Tahoma; /*tipo da fonte*/
+	text-align:center; /*alinhamento do texto*/
+	margin-top: -76px;/*margem superior*/
+	margin-bottom: 5px;/*margem inferior*/
+	margin-left: 50px;
+	color:#006699;/*cor da fonte*/
+	border:none;/*define sem borda*/
+	float:left;
+	width: 490px;
+
+}
+
+#paginacao a { /*formatação CSS para a tag <a>*/
+	padding: 5px 10px; /*distância da margem*/
+	text-decoration: none;/*retira o underline do link*/
+	color:##009900;/*cor do texto*/
+
+}
+
+#paginacao a:hover { /*formatação CSS para a tag <a> quando o mouse estiver sobre ela*/
+    background-color: #006699;/*cor de fundo*/
+	color:#00FF00;/*cor do texto*/
+	padding: 5px 10px;/*distancia da margem*/
+	text-decoration: overline;/*retira o underline do link*/
+
+}/* fim paginação*/
+/**/
+/*Adesivação;*/
+#web_adesivacao{
+	height: 504px;
+	width: 960px;
+	/*background:  url(./imagens/Fundo.jpg);*/
+	margin:0 auto;
+}
+#fundo_adesivacao{
+	height: 600px;
+	width: 960px;
+	float:left;
+	background:url(./imagens/Fundo-Clientes-960x900.jpg);	
+}
+#mostrar_logo_adesivacao{
+	height: 900px;
+	width: 750px;
+	margin:0 auto;
+	margin-right:30px;	
+}	
+#web_descricaoAdesivacao{
+	height: 110px;
+	width: 500px;
+	float:clear;
+	margin-left:200px;
+	margin-top:20px;
+	text-align  :justify;		
+}
+#web_descricaoAdesivacao span{
+	color:#4682B4;
+	font-family :"Arial";
+	font-weight :bold;
+	font-size   :13px;
+	margin-left:10px;
+}
+#adesivacao{
+	color:#4682B4;
+	font-family :"Arial";
+	font-weight :bold;
+	font-size   :21px;
+	float:left;
+	margin-top:5px;
+	margin-left:7px;
+}
+/*fim adesivação*/
+
+/**/
+/*Projetos Especiais;*/
+#web_projeto{
+	height: 504px;
+	width: 960px;
+	margin:0 auto;
+}
+#fundo_projeto{
+	height: 600px;
+	width: 960px;
+	float:left;
+	background:url(./imagens/Fundo-Clientes-960x900.jpg);	
+}
+#mostrar_logo_projeto{
+	height: 900px;
+	width: 750px;
+	margin:0 auto;
+	margin-right:30px;	
+}	
+#web_descricaoProjeto{
+	height: 110px;
+	width: 750px;
+	float:clear;
+	margin-left:205px;
+	margin-top:20px;
+	text-align  :justify;
+}
+#web_descricaoProjeto span{
+	color:#4682B4;
+	font-family :"Arial";
+	font-weight :bold;
+	font-size   :13px;
+	margin-left:10px;
+}
+#projeto{
+	color:#4682B4;
+	font-family :"Arial";
+	font-weight :bold;
+	font-size   :21px;
+	float:left;
+	margin-top:5px;
+	margin-left:7px;
+}
+/*fim Projetos Especiais*/
+/**/
+/*Início Formulário de Contato*/
+#webContato{
+	height: 504px;
+	width: 960px;
+	background:url(./imagens/Fundo-Clientes-960x900.jpg);	
+	margin:0 auto;
+}
+#webContatoDesc{
+	height: 260px;
+	width: 290px;
+	float:left;
+	margin-top:120px;
+	margin-left:550px;
+	text-align  :left;
+	padding:10px;
+}
+#webContatoDesc span{
+	font-size   :13px;
+	color:#fff;
+	text-align  :center;
+}
+#rodape_contato{
+	height:43px;
+	width:  960px;
+	background: url(./imagens/rodape.jpg);
+	margin:0 auto;		
+}
+/*campos para o formulário*/
+#formulario_contato{
+	width: 313px;
+	height: 500px;
+	padding: 1px;
+	background: #fff;
+	float:left;
+	margin-left: 280px;
+	margin-top:2px;
+
+}
+/*
+#formulario_contato label{
+	display: block; mostra um abaixo do outro
+}*/	
+#formulario_contato label span.titulo{
+	font: 15px tahoma,arial, helvetica;
+	color: #069;
+	display: block; /*mostra um abaixo do outro;*/
+	float:left;
+	width: 100%;
+	margin: 6px 4px;
+}
+#formulario_contato label input /* [type=text], #formulario label input[type=password]*/{
+	padding: 6px 5px;
+	color:#4682B4;
+	border: solid 1px #069;
+	width: 600px;
+	outline:none;
+ }
+ #formulario_contato label textarea /* [type=text], #formulario label input[type=password]*/{
+	padding: 6px 5px;
+	color:#4682B4;
+	border: solid 1px #069;
+	width: 400px;
+	outline:none;
+ }
+ 
+#formulario_contato .dois-campos{
+	/*float:left;
+	padding: 1px 0;*/
+	width: 730px;
+	margin-bottom: 3px;
+}
+#formulario_contato .dois-campos label{
+	/*float:left;*/
+	display: inline-table;  /*na mesma linha*/
+	width: 305px;
+	margin-right: 5px; 
+}
+#formulario_contato .dois-campos label input{
+	width: 400px;
+}
+#formulario_contato .dois-campos label select{
+	padding: 3px;
+	width: 295px;
+	font: 16px tahoma;
+	border: 1p solid #069;
+}
+#formulario_contato .botao{
+	width: 130px;
+	height: 30px;
+	display: block;
+	/*margin: 10px auto;*/
+	margin-left: 282px;
+	cursor: pointer;
+	background: #069;
+	color:#fff;
+}
+/*fim  Formulário de Contato*/
+
+/*formatação para tela de login quando negada a permissão*/
+#web_fundo_2{
+height: 504px;
+	width: 960px;
+	background:  url(./imagens/Fundo.jpg);
+	margin:0 auto;
+}
+#web_login_2{
+
+	height: 47px;
+	width: 290px;
+	float:left;
+	margin-top:120px;
+	margin-left:535px;
+	text-align  :center;
+	padding:1px;
+
+}
+#web_login_2 span{
+	font-size   :13px;
+	color:#fff;	
+}
+#formulario_2{
+	width: 313px;
+	height: 200px;
+	padding: 3px;
+	/*background: #fff;*/
+	float:left;
+	margin-left: 535px;
+	margin-top:20px;
+	/*border: 1px solid #069;*/
+}
+#formulario_2 .botao{
+	width: 130px;
+	height: 30px;
+	display: block;
+	margin: 10px auto;
+	cursor: pointer;
+	background: #069;
+	color:#fff;
+	}
+
+/*fim formatação*/
